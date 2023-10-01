@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto','Kaushan Script', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.scorebox{
+  background-color: black;
+  color: #fff;
+  margin: 1%;
+}
+
+.example-mark{
+  color:#000
+}
+
+.Robo, .score, .Multi, .userscore{
+  display: inline;
+}
+
+.userscore{
+  position: absolute;
+  top: 5.5%;
+  left: 220px;
+  font-family: 'Shojumaru', cursive;
+  font-size: large;
+}
+
+.vs{
+  position: absolute;
+  left: 47%;
+  top: 6%;
+  font-family: 'Shojumaru', cursive;
+  font-size: xxx-large;
+}
+.score{
+  position: absolute;
+  top: 5.5%;
+  right: 220px;
+  font-family: 'Shojumaru', cursive;
+  font-size: large;
+  text-align: right;
+}
+
+.Multi{
+  background-color: #fff;
+  border-radius: 100%;
+  float: right;
+}
+
+button{
+  border-radius: 100%;
+  position: absolute;
+  border: #fff;
+  background-color: #fff;
+}
+
+.one{
+  top: 33.5%;
+  left: 22.5%;
+}
+
+.cone{
+  top: 33.5%;
+  right: 22.5%;
+}
+
+.two{
+  left: 32%;
+  top: 48%;
+}
+
+.ctwo{
+  right: 32%;
+  top: 48%;
+}
+
+.three{
+  left: 28%;
+  top: 70%;
+}
+
+.cthree{
+  right: 28%;
+  top: 70%;
+}
+
+.four{
+  left: 17%;
+  top: 70%;
+}
+
+.cfour{
+  right: 17%;
+  top: 70%;
+}
+
+.five{
+  left: 12.5%;
+  top: 48%;
+}
+
+.cfive{
+  right: 12.5%;
+  top: 48%;
+}
+
+.usrchoice{
+  height: 148px;
+  position: absolute;
+  left: 22.25%;
+  top: 51.75%;
+}
+
+.compchoice{
+  height: 148px;
+  position: absolute;
+  right: 22.25%;
+  top: 51.75%;
+}
+
+.results{
+  text-align: center;
+}
+
+.playagain1{
+  position: relative;
+  left:10%;
+}
+.ido{
+  position: relative;
+}
+.playagain2{
+  font-family: Georgia, serif;
+  font-size: large;
+  height: 40px;
+  width: 80px;
+  border: 2px solid black;
+  border-color: #000;
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .one, .two, .three,.four,.five,.cone, .ctwo, .cthree,.cfour,.cfive,.Robo,.Multi,.ione, .itwo, .ithree,.ifour,.ifive,.icone, .ictwo, .icthree,.icfour,.icfive{
+    height: 90px;
+    width: 90px;
+  }
+  .userscore{
+    top: 1.5%;
+    left: 110px;
+    font-size: small;
+  }
+  .vs{
+    position: absolute;
+    left: 47%;
+    top: 4.5%;
+    font-family: 'Shojumaru', cursive;
+    font-size: large;
+  }
+  .score{
+    top: 1.5%;
+    right: 110px;
+    font-size: small;
+    text-align: right;
+  }
+  .usrchoice,.compchoice{
+    position: relative;
+    left:41%;
+    right:0;
+    display: block;
+  }
+  .user{
+    text-align: center;
+  }
+  .one, .two, .three,.four,.five,.cone, .ctwo, .cthree,.cfour,.cfive{
+    text-align: center;
+    position: relative;
+    margin: 5px;
+    left: 0;
+  }
+}

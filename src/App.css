@@ -1,0 +1,54 @@
+.App {
+  font-family: 'League Gothic', sans-serif;
+  margin-top: 4%;
+}
+
+h1{
+  margin-left: 6%;
+}
+
+.userselection{
+  text-align: center;
+}
+
+.Computer, .Multiplayer{
+  margin-top: 10%;
+  margin-left: 16%;
+  margin-right: 16%;
+  border-radius: 100%;
+  height: 190px;
+  width: 190px;
+  border: none; 
+  position: relative;
+} 
+
+.name{
+  background-color: #282c34;
+  color: aliceblue;
+  height: 2em;
+  width: 40%;
+  font-size: x-large;
+}
+
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 8vh;
+  display: inline;
+  position: absolute;
+  left:30%;
+  top: 20%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .horizontal-slider{
+    display: block;
+    position: relative;
+    left: 8%;
+  }
+  .Computer, .Multiplayer{
+    height: 190px;
+  width: 190px;
+  margin-top: 2%;
+  }
+}
