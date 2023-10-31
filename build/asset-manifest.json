@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Stone-Paper-Scissors/static/css/main.041cfea3.css",
+    "main.js": "/Stone-Paper-Scissors/static/js/main.ce349a0e.js",
+    "static/js/787.3b826130.chunk.js": "/Stone-Paper-Scissors/static/js/787.3b826130.chunk.js",
+    "static/media/Multiplayer.png": "/Stone-Paper-Scissors/static/media/Multiplayer.156a6f2fd996fcd9316e.png",
+    "static/media/Lizard.png": "/Stone-Paper-Scissors/static/media/Lizard.6376b0bc7e775be7be2d.png",
+    "index.html": "/Stone-Paper-Scissors/index.html",
+    "main.041cfea3.css.map": "/Stone-Paper-Scissors/static/css/main.041cfea3.css.map",
+    "main.ce349a0e.js.map": "/Stone-Paper-Scissors/static/js/main.ce349a0e.js.map",
+    "787.3b826130.chunk.js.map": "/Stone-Paper-Scissors/static/js/787.3b826130.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.041cfea3.css",
+    "static/js/main.ce349a0e.js"
+  ]
+}
